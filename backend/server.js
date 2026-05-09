@@ -17,7 +17,7 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 const __dirname = path.resolve();
-app.use(express.json({ limit: "20mb" }));
+app.use(express.json({ limit: "10mb" }));
 
 // app.get("/", (req, res) => {
 //   res.send("api is working");
